@@ -36,7 +36,7 @@ class GenresController {
     try {
       const genre = await Genre.create(req.body);
       res.status(200).json({
-        message: "Create Genre Done",
+        message: "Create Genre  Successfully!",
         data: genre,
       });
     } catch (error) {
@@ -56,7 +56,7 @@ class GenresController {
         });
       }
       res.status(200).json({
-        message: "Update Genre Done",
+        message: "Update Genre Successfully!",
         data: genre,
       });
     } catch (error) {

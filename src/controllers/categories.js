@@ -5,7 +5,7 @@ class CategoriesController {
     try {
       const categoryList = await Category.find();
       res.status(200).json({
-        message: "Get Done",
+        message: "Get Category Done",
         data: categoryList,
       });
     } catch (error) {

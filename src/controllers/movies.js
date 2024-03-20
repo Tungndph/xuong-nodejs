@@ -74,7 +74,7 @@ class MoviesController {
         });
       }
       res.status(200).json({
-        message: "Delete Movie Done",
+        message: "Delete Movie Successfully!",
       });
     } catch (error) {
       res.status(400).json({
